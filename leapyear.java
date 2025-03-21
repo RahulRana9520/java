@@ -2,7 +2,7 @@
 import java.util.*;
 public class leapyear{
     public static void main(String[] args) {
-        System.out.println("Enter the year");
+        System.out.print("Enter the year:");
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         if (a % 4==0 && a % 100!=0 || a % 400==0){
